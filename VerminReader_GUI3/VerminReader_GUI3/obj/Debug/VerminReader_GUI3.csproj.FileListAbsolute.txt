@@ -1,0 +1,12 @@
+C:\Users\Home\source\repos\VerminReader_GUI3\VerminReader_GUI3\bin\Debug\VerminReader_GUI3.exe.config
+C:\Users\Home\source\repos\VerminReader_GUI3\VerminReader_GUI3\bin\Debug\VerminReader_GUI3.exe
+C:\Users\Home\source\repos\VerminReader_GUI3\VerminReader_GUI3\bin\Debug\VerminReader_GUI3.pdb
+C:\Users\Home\source\repos\VerminReader_GUI3\VerminReader_GUI3\obj\Debug\VerminReader_GUI3.csprojResolveAssemblyReference.cache
+C:\Users\Home\source\repos\VerminReader_GUI3\VerminReader_GUI3\obj\Debug\VerminReader_GUI3.Properties.Resources.resources
+C:\Users\Home\source\repos\VerminReader_GUI3\VerminReader_GUI3\obj\Debug\VerminReader_GUI3.csproj.GenerateResource.cache
+C:\Users\Home\source\repos\VerminReader_GUI3\VerminReader_GUI3\obj\Debug\VerminReader_GUI3.csproj.CoreCompileInputs.cache
+C:\Users\Home\source\repos\VerminReader_GUI3\VerminReader_GUI3\obj\Debug\VerminReader_GUI3.exe
+C:\Users\Home\source\repos\VerminReader_GUI3\VerminReader_GUI3\obj\Debug\VerminReader_GUI3.pdb
+C:\Users\Home\source\repos\VerminReader_GUI3\VerminReader_GUI3\obj\Debug\VerminReader_GUI3.Form1.resources
+C:\Users\Home\source\repos\VerminReader_GUI3\VerminReader_GUI3\obj\Debug\VerminReader_GUI3.Settings.resources
+C:\Users\Home\source\repos\VerminReader_GUI3\VerminReader_GUI3\obj\Debug\VerminReader_GUI3.SearchBox.resources

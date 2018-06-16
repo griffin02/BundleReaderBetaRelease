@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>System.Data.HashFunction.MurmurHash</name>
+    </assembly>
+    <members>
+        <member name="T:System.Data.HashFunction.MurmurHash3">
+            <summary>
+            Implementation of MurmurHash3 as specified at https://code.google.com/p/smhasher/source/browse/trunk/MurmurHash3.cpp 
+              and https://code.google.com/p/smhasher/wiki/MurmurHash3.
+            </summary>
+        </member>
+        <member name="F:System.Data.HashFunction.MurmurHash3.c1_32">
+            <summary>
+            Constant c1 for 32-bit calculation as defined by MurmurHash3 specification.
+            </summary>
+        </member>
+        <member name="F:System.Data.HashFunction.MurmurHash3.c2_32">
+            <summary>
+            Constant c2 for 32-bit calculation as defined by MurmurHash3 specification.
+            </summary>
+        </member>
+        <member name="F:System.Data.HashFunction.MurmurHash3.c1_128">
+            <summary>
+            Constant c1 for 128-bit calculation as defined by MurMurHash3 specification.
+            </summary>
+        </member>
+        <member name="F:System.Data.HashFunction.MurmurHash3.c2_128">
+            <summary>
+            Constant c2 for 128-bit calculation as defined by MurMurHash3 specification.
+            </summary>
+        </member>
+        <member name="M:System.Data.HashFunction.MurmurHash3.#ctor">
+            <remarks>
+            Defaults <see cref="P:System.Data.HashFunction.MurmurHash3.Seed"/> to 0. <inheritdoc cref="M:System.Data.HashFunction.MurmurHash3.#ctor(System.UInt32)"/>
+            </remarks>
+            <inheritdoc cref="M:System.Data.HashFunction.MurmurHash3.#ctor(System.UInt32)"/>
+        </member>
+        <member name="M:System.Data.HashFunction.MurmurHash3.#ctor(System.Int32)">
+            <remarks>
+            Defaults <see cref="P:System.Data.HashFunction.MurmurHash3.Seed"/> to 0.
+            </remarks>
+            <inheritdoc cref="M:System.Data.HashFunction.MurmurHash3.#ctor(System.Int32,System.UInt32)"/>
+        </member>
+        <member name="M:System.Data.HashFunction.MurmurHash3.#ctor(System.UInt32)">
+            <remarks>
+            Defaults <see cref="P:System.Data.HashFunction.HashFunctionBase.HashSize"/> to 32.
+            </remarks>
+            <inheritdoc cref="M:System.Data.HashFunction.MurmurHash3.#ctor(System.Int32,System.UInt32)"/>
+        </member>
+        <member name="M:System.Data.HashFunction.MurmurHash3.#ctor(System.Int32,System.UInt32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:System.Data.HashFunction.MurmurHash3"/> class.
+            </summary>
+            <param name="hashSize"><inheritdoc cref="M:System.Data.HashFunction.HashFunctionBase.#ctor(System.Int32)"/></param>
+            <param name="seed"><inheritdoc cref="P:System.Data.HashFunction.MurmurHash3.Seed"/></param>
+            <exception cref="T:System.ArgumentOutOfRangeException">hashSize;hashSize must be contained within MurmurHash3.ValidHashSizes.</exception>
+            <inheritdoc cref="M:System.Data.HashFunction.HashFunctionBase.#ctor(System.Int32)"/>
+        </member>
+        <member name="M:System.Data.HashFunction.MurmurHash3.ComputeHashInternal(System.Data.HashFunction.Utilities.UnifiedData.UnifiedData)">
+            <exception cref="T:System.InvalidOperationException">HashSize set to an invalid value.</exception>
+            <inheritdoc/>
+        </member>
+        <member name="P:System.Data.HashFunction.MurmurHash3.Seed">
+            <summary>
+            Seed value for hash calculation.
+            </summary>
+            <value>
+            The seed value for hash calculation.
+            </value>
+        </member>
+        <member name="P:System.Data.HashFunction.MurmurHash3.ValidHashSizes">
+            <summary>
+            The list of possible hash sizes that can be provided to the <see cref="T:System.Data.HashFunction.MurmurHash3"/> constructor.
+            </summary>
+            <value>
+            The list of valid hash sizes.
+            </value>
+        </member>
+        <member name="T:System.Data.HashFunction.MurmurHash2">
+            <summary>
+            Implementation of MurmurHash2 as specified at https://code.google.com/p/smhasher/source/browse/trunk/MurmurHash2.cpp 
+              and https://code.google.com/p/smhasher/wiki/MurmurHash2.
+            
+            This hash function has been superseded by MurmurHash3.
+            </summary>
+        </member>
+        <member name="F:System.Data.HashFunction.MurmurHash2.MixConstant">
+            <summary>
+            Constant as defined by MurmurHash2 specification.
+            </summary>
+        </member>
+        <member name="M:System.Data.HashFunction.MurmurHash2.#ctor">
+            <remarks>
+            Defaults <see cref="P:System.Data.HashFunction.MurmurHash2.Seed"/> to 0.  <inheritdoc cref="M:System.Data.HashFunction.MurmurHash2.#ctor(System.UInt64)"/>
+            </remarks>
+            <inheritdoc cref="M:System.Data.HashFunction.MurmurHash2.#ctor(System.UInt64)"/>
+        </member>
+        <member name="M:System.Data.HashFunction.MurmurHash2.#ctor(System.Int32)">
+            <remarks>
+            Defaults <see cref="P:System.Data.HashFunction.MurmurHash2.Seed"/> to 0.
+            </remarks>
+            <inheritdoc cref="M:System.Data.HashFunction.MurmurHash2.#ctor(System.Int32,System.UInt64)"/>
+        </member>
+        <member name="M:System.Data.HashFunction.MurmurHash2.#ctor(System.UInt64)">
+            <remarks>
+            Defaults <see cref="P:System.Data.HashFunction.HashFunctionBase.HashSize"/> to 64.
+            </remarks>
+            <inheritdoc cref="M:System.Data.HashFunction.MurmurHash2.#ctor(System.Int32,System.UInt64)"/>
+        </member>
+        <member name="M:System.Data.HashFunction.MurmurHash2.#ctor(System.Int32,System.UInt64)">
+            <summary>
+            Initializes a new instance of the <see cref="T:System.Data.HashFunction.MurmurHash2"/> class.
+            </summary>
+            <param name="hashSize"><inheritdoc cref="M:System.Data.HashFunction.HashFunctionBase.#ctor(System.Int32)"/></param>
+            <param name="seed"><inheritdoc cref="P:System.Data.HashFunction.MurmurHash2.Seed"/></param>
+            <exception cref="T:System.ArgumentOutOfRangeException">hashSize;hashSize must be contained within MurmurHash2.ValidHashSizes.</exception>
+            <inheritdoc cref="M:System.Data.HashFunction.HashFunctionBase.#ctor(System.Int32)"/>
+        </member>
+        <member name="M:System.Data.HashFunction.MurmurHash2.ComputeHashInternal(System.Data.HashFunction.Utilities.UnifiedData.UnifiedData)">
+            <exception cref="T:System.InvalidOperationException">HashSize set to an invalid value.</exception>
+            <inheritdoc/>
+        </member>
+        <member name="P:System.Data.HashFunction.MurmurHash2.Seed">
+            <summary>
+            Seed value for hash calculation.
+            </summary>
+            <value>
+            The seed value for hash calculation.
+            </value>
+        </member>
+        <member name="P:System.Data.HashFunction.MurmurHash2.ValidHashSizes">
+            <summary>
+            The list of possible hash sizes that can be provided to the <see cref="T:System.Data.HashFunction.MurmurHash2"/> constructor.
+            </summary>
+            <value>
+            The list of valid hash sizes.
+            </value>
+        </member>
+        <member name="P:System.Data.HashFunction.MurmurHash2.RequiresSeekableStream">
+            <inheritdoc/>
+        </member>
+        <member name="T:System.Data.HashFunction.MurmurHash1">
+            <summary>
+            Implementation of MurmurHash1 as specified at https://code.google.com/p/smhasher/source/browse/trunk/MurmurHash1.cpp 
+              and https://code.google.com/p/smhasher/wiki/MurmurHash1.
+            
+            This hash function has been superseded by MurmurHash2 and MurmurHash3.
+            </summary>
+        </member>
+        <member name="F:System.Data.HashFunction.MurmurHash1.m">
+            <summary>
+            Constant m as defined by MurmurHash1 specification.
+            </summary>
+        </member>
+        <member name="M:System.Data.HashFunction.MurmurHash1.#ctor">
+            <remarks>Defaults <see cref="P:System.Data.HashFunction.MurmurHash1.Seed"/> to 0.</remarks>
+            <inheritdoc cref="M:System.Data.HashFunction.MurmurHash1.#ctor(System.UInt32)"/>
+        </member>
+        <member name="M:System.Data.HashFunction.MurmurHash1.#ctor(System.UInt32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:System.Data.HashFunction.MurmurHash1"/> class.
+            </summary>
+            <param name="seed"><inheritdoc cref="P:System.Data.HashFunction.MurmurHash1.Seed"/></param>
+            <inheritdoc cref="M:System.Data.HashFunction.HashFunctionBase.#ctor(System.Int32)"/>
+        </member>
+        <member name="M:System.Data.HashFunction.MurmurHash1.ComputeHashInternal(System.Data.HashFunction.Utilities.UnifiedData.UnifiedData)">
+            <inheritdoc />
+        </member>
+        <member name="P:System.Data.HashFunction.MurmurHash1.Seed">
+            <summary>
+            Seed value for hash calculation.
+            </summary>
+            <value>
+            The seed value for hash calculation.
+            </value>
+        </member>
+        <member name="P:System.Data.HashFunction.MurmurHash1.RequiresSeekableStream">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,91 @@
+﻿  stdafx.cpp
+  Bundle.cpp
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundle.cpp(11): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundle.cpp(36): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundle.cpp(61): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundle.cpp(163): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundle.cpp(164): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  BundleException.cpp
+  BundleReader.cpp
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\zconf.h(496): warning C4068: unknown pragma
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\zconf.h(497): warning C4068: unknown pragma
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\zconf.h(498): warning C4068: unknown pragma
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\zconf.h(499): warning C4068: unknown pragma
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\zconf.h(500): warning C4068: unknown pragma
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\zconf.h(501): warning C4068: unknown pragma
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\zconf.h(502): warning C4068: unknown pragma
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\zconf.h(503): warning C4068: unknown pragma
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\zconf.h(504): warning C4068: unknown pragma
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\zconf.h(505): warning C4068: unknown pragma
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\zconf.h(506): warning C4068: unknown pragma
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\zconf.h(507): warning C4068: unknown pragma
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\zconf.h(508): warning C4068: unknown pragma
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(40): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(70): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(81): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(97): warning C4018: '>': signed/unsigned mismatch
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(132): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(139): warning C4018: '>': signed/unsigned mismatch
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(156): warning C4018: '<': signed/unsigned mismatch
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(160): warning C4018: '<': signed/unsigned mismatch
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(207): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(214): warning C4018: '>': signed/unsigned mismatch
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(231): warning C4018: '<': signed/unsigned mismatch
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(235): warning C4018: '<': signed/unsigned mismatch
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(258): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(265): warning C4018: '>': signed/unsigned mismatch
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(282): warning C4018: '<': signed/unsigned mismatch
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(286): warning C4018: '<': signed/unsigned mismatch
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(309): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(316): warning C4018: '>': signed/unsigned mismatch
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(333): warning C4018: '<': signed/unsigned mismatch
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(337): warning C4018: '<': signed/unsigned mismatch
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(389): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(403): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(438): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(478): warning C4101: 'flush': unreferenced local variable
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(535): warning C4018: '<': signed/unsigned mismatch
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(549): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(612): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(623): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(634): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(645): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(664): warning C4018: '<': signed/unsigned mismatch
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(676): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(695): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(722): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(740): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(758): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(803): warning C4018: '<': signed/unsigned mismatch
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(815): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(832): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(859): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(877): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(895): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(936): warning C4018: '<': signed/unsigned mismatch
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(948): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(965): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(992): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(1010): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(1051): warning C4018: '<': signed/unsigned mismatch
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(1056): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(1071): warning C4018: '<': signed/unsigned mismatch
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(1076): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(1093): warning C4018: '<': signed/unsigned mismatch
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(1105): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(1122): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(1149): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\bundlereader.cpp(1167): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Convert.cpp
+  MurMurHash.cpp
+  VerminUnpacker.cpp
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\verminunpacker.cpp(79): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdlib.h(1014): note: see declaration of 'wcstombs'
+c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\verminunpacker.cpp(89): warning C4477: 'printf' : format string '%i' requires an argument of type 'int', but variadic argument 2 has type 'unsigned __int64'
+  c:\users\home\source\repos\verminreader_aio\verminunpacker\verminunpacker\verminunpacker.cpp(89): note: consider using '%zi' in the format string
+  Generating code
+  All 936 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  VerminUnpacker.vcxproj -> C:\Users\Home\source\repos\VerminReader_AIO\x64\Release\VerminUnpacker.exe
+          1 file(s) copied.
